@@ -13,14 +13,14 @@ export interface DeleteProductDispatch{
   payload: number
 }
 
-export const AddEmployee = (info: productInterface) => (dispatch: Dispatch) => {
+export const AddProduct = (info: productInterface) => (dispatch: Dispatch) => {
   dispatch<AddProductDispatch>({
     type: ActionTypes.AddProduct,
     payload: info
   })
 };
 
-export const DeleteEmployee = (productId: number) => (dispatch: Dispatch) => {
+export const DeleteProduct = (productId: number) => (dispatch: Dispatch) => {
   dispatch<DeleteProductDispatch>({
     type: ActionTypes.DeleteProduct,
     payload: productId
