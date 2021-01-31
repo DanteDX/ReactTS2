@@ -7,11 +7,12 @@ interface EmployeeProps{
     employeesInformation: employeeInterface[];
     AddEmployee: Function;
     DeleteEmployee: Function;
+    store?: any;
 }
 
 const Employee = (props:EmployeeProps):JSX.Element =>{
     return(
-        <div>
+        <div className="employeeWrapper">
             Employee Component
         </div>
     )
