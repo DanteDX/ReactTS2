@@ -15,5 +15,4 @@ describe('Testing Employee Component',() =>{
         let temp = wrapper.find('.employeeWrapper');
         expect(temp.length).toBe(1);
     })
-})
-
+});

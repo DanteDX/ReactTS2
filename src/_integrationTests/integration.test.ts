@@ -1,4 +1,4 @@
-import { AddDirector } from "../actions/DirectorAction";
+import { _AddDirector } from "../actions/DirectorAction";
 import store from "../store/store";
 
 
@@ -13,8 +13,8 @@ describe('Testing AddDiretor Action', function () {
       directorId: 999,
       directorPosition: 'Director'
     };
-    store.dispatch<any>(AddDirector(info));
+    store.dispatch(_AddDirector(info));
     const newState = store.getState();
     expect(newState.directorsInformation).toStrictEqual(expectedState);
   })
-})
+});

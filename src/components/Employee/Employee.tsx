@@ -7,7 +7,7 @@ interface EmployeeProps{
     employeesInformation: employeeInterface[];
     AddEmployee: Function;
     DeleteEmployee: Function;
-    store?: any;
+    store?: any;   
 }
 
 const Employee = (props:EmployeeProps):JSX.Element =>{
