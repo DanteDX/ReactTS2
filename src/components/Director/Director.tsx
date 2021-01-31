@@ -9,6 +9,7 @@ interface DirectorProps{
     directorsInformation: directorInterface[];
     AddDirector: Function;
     DeleteDirector: Function;
+    store?: any;
 }
 
 const Director = (props:DirectorProps):JSX.Element =>{
