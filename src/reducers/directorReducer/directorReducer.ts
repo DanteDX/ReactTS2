@@ -1,6 +1,6 @@
-import { ActionTypes } from "../actions/ActionTypes";
-import { directorInterface } from "./index";
-import { DirectorActions } from "../actions/ActionTypes";
+import { ActionTypes } from "../../actions/ActionTypes";
+import { directorInterface } from "../index";
+import { DirectorActions } from "../../actions/ActionTypes";
 
 const initialState = [{
   directorName: "",

@@ -1,7 +1,7 @@
 import { combineReducers } from "redux";
 import { EmployeeReducer } from "./employeeReducer";
 import { ProductReducer } from "./productReducer";
-import { DirectorReducer } from "./directorReducer";
+import { DirectorReducer } from "./directorReducer/directorReducer";
 
 export interface employeeInterface{
   employeeId: number;
