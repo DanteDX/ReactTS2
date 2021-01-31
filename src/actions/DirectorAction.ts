@@ -20,6 +20,11 @@ export const AddDirector = (info: directorInterface) => (dispatch: Dispatch) => 
   })
 };
 
+export const _AddDirector = (info: directorInterface) => ({
+  type: ActionTypes.AddDirector,
+  payload: info
+});
+
 export const DeleteDirector = (directorId: number) => (dispatch: Dispatch) => {
   dispatch<DeleteDirectorDispatch>({
     type: ActionTypes.DeleteDirector,
